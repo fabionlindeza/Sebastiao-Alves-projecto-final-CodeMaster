@@ -1,0 +1,166 @@
+body{
+    background-image: url(../imagens/imagem_background.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1920px 1080px;
+    background-attachment: fixed;
+    margin: auto;
+    text-align: center;
+    font-family: didot, serif;
+}
+
+.caixas{
+    border: 0.01px solid #B8860B;
+    border-radius: 5px;
+    background-color: white;
+    opacity: 70%;
+    width: 90%;
+    margin: auto;
+    color: rgb(172, 170, 141);
+    padding: 30px;
+}
+
+header > .entrada{
+    font-size: 50px;
+    font-weight: bold;
+    background-color: rgb(172, 170, 141);
+    color: white;
+}
+
+#imagem_home{
+    width: 300px;
+    padding-bottom: 40px;
+    padding-top: 10px;
+}
+
+p{
+    color: black;
+    padding: 10px;
+}
+
+.caixas > h3{
+    margin-bottom: 15px;
+    font-size: 40px;
+    color: white;
+}
+
+.h3_dif_cor{
+    color: rgb(172, 170, 141) !important;
+}
+
+.login{
+    background-color: rgb(172, 170, 141);
+    border-bottom: 0px;
+}
+
+h4{
+    color: red;
+}
+
+.h5_dif_cor{
+    color: #B8860B;
+}
+
+input[type="text"], input[type="password"], input[type="number"]{
+    border-radius: 5px;
+    text-align: center;
+}
+
+input[type="text"], input[type="password"]{
+    width: 10%;
+    border-radius: 5px;
+}
+
+input[type="text"], input[type="password"], #teste{
+    width: 10%;
+}
+
+label{
+    font-size: 20px;
+    color: #B8860B;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+button, input[type="submit"]{
+    background-color: rgb(172, 170, 141);
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+button:hover, input[type="submit"]:hover{
+    color: black;
+}
+
+button:disabled{
+    background-color: rgba(163, 179, 179, 0.5);
+    color: rgb(48, 150, 99);
+}
+
+.titulo{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.titulo_2{
+    font-size:24px;
+}
+
+.menu{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 20px 10px;
+    padding: 0px !important;
+    width: fit-content !important;   
+}
+
+.menu:hover{
+    color: #B8860B;
+    font-size: 18px;       
+}
+
+.active{
+    color: rgb(172, 170, 141)!important;
+}
+
+form{
+    color: black;
+    font-size: 16px;
+}
+
+table, td, th {
+    border: 3px solid rgb(117, 121, 121); 
+}
+
+th{
+    text-transform: uppercase;
+    color:#B8860B;
+}
+
+td{
+    color: black;
+}
+
+th, td{
+    height: 40px;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    font-weight: bold;
+    color: white;
+}
